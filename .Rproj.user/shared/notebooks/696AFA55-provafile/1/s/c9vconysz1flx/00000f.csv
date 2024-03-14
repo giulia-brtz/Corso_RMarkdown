@@ -1,0 +1,15 @@
+"0","# maggiori dettagli sulla x
+table(dati$x)
+"
+"1","
+"
+"1","    setosa "
+"1","versicolor "
+"1"," virginica "
+"1","
+"
+"1","        50 "
+"1","        50 "
+"1","        50 "
+"1","
+"

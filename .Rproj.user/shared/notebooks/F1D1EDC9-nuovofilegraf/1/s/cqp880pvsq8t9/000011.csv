@@ -1,0 +1,4 @@
+"0","grafico2 = ggplot(rock, "
+"0","       aes(y=peri,x=shape, color =shape, size = peri)) + geom_point() + "
+"0","  theme_bw() + theme(legend.position = ""none"") "
+"0","grafico2"

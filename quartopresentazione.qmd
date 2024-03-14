@@ -1,0 +1,154 @@
+---
+title: "Quartopresentazione"
+author: G
+date: 14/03/2024
+format:
+  html:
+    toc: true
+    toc-title: Quarto lezione
+    toc-location: right
+    toc-depth: 3
+    code-tools: 
+     source: true
+     toggle: false
+     caption: none
+    theme: minty
+editor: source
+execute: 
+  eval: true
+  echo: true
+  warning: false
+lang: it
+---
+
+## Quarto
+
+Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>. figura del fiore ape in @fig-ape
+
+```{r}
+#| eval: true
+#| comment: "=)"
+
+1+1
+```
+
+## Running Code
+
+When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
+
+```{r}
+1 + 1
+```
+
+You can add options to executable code like this
+
+```{r}
+#| echo: false
+2 * 2
+```
+
+The `echo: false` option disables the printing of code (only output is displayed).
+
+Qui mettiamo un'immagine in @fig-quadrino
+
+```{r}
+#| fig-cap: "Fiorellino"
+#| fig-cap-location: top
+#| out-width: 50%
+#| label: fig-quadrino
+#| fig-align: right
+knitr::include_graphics("img/iris_albicans (3).jpg")
+```
+
+[![Fiore](img/Iris-kaempferi-Viola-Giaggiolo-2.jpg)](https://it.wikipedia.org/wiki/Fiore)
+
+Un @fig-pinguino imperatore vive mediamente 20 anni, anche se sono noti dei record di longevità di pinguini arrivati al quarantesimo anno di vita. Se sulle superfici di ghiaccio ha la caratteristica e buffa andatura che lo contraddistingue, in mare, grazie alla forma idrodinamica, “vola” letteralmente sott’acqua a una velocità di 40 km/h, immergendosi anche a profondità molto elevate e restando in apnea per 20 minuti.
+
+```{r}
+#| fig-cap: "Il mio grafico"
+#| fig-cap-location: top
+#| out-width: 50%
+#| fig-align: center
+#| label: fig-pinguino
+library(ggplot2)
+ggplot(rock, 
+       aes(y=peri,x=shape, color =shape, size = peri)) + geom_point() + 
+  theme_light() + theme(legend.position = "none") 
+
+```
+
+:::: {.columns}
+
+
+::: {.column width="30%"}
+
+testo nella prima colonna fiorellino pinguino
+
+:::
+
+::: {.column width="30%"}
+
+Testo nella seconda colonna margherita bianca
+
+:::
+
+::: {.column width="30%"}
+
+Testo nella seconda colonna erba verde margherita bianca
+
+:::
+
+::::
+
+-----------------------------------------------------------------
+
+::: {.grid}
+
+::: {.g-col-3}
+
+Prima colonna più stretta della seconda dove parlo del mio grafico
+
+:::
+
+::: {.g-col-4}
+
+Colonna più larga con il codice 
+
+:::
+
+::: {.g-col-5}
+
+Colonna più larga con il codice per ottenere il grafico
+
+:::
+
+:::
+
+------------------------------------------------------------------
+
+::: {.panel-tabset}
+
+## Fiore
+
+Descrizione del mio dataset 
+
+## Fiorone
+
+
+Primo tabset con una tabella contenente il dataset
+
+
+## Fiorissimo
+
+Terzo tabset con il grafico dei dati
+
+```{r}
+#| fig-cap: "fiore ape"
+#| fig-cap-location: top
+#| out-width: 50%
+#| label: fig-ape
+#| fig-align: center
+knitr::include_graphics("img/Zinnia_elegans_with_Bombus_01.JPG")
+```
+
+:::

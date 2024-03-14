@@ -1,0 +1,39 @@
+---
+title: "documentonew"
+output:
+  html_document:
+    df_print: paged
+  pdf_document:
+    number_sections: false
+date: "2024-03-13"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+
+## Including Plots
+
+```{r plot-interactive, echo=FALSE, eval=knitr::is_html_output()}
+library(ggplot2)
+library(plotly)
+grafico1 = ggplot(rock, 
+       aes(y=peri,x=shape, color =shape, size = peri)) + geom_point() + 
+  theme_bw() + theme(legend.position = "none") 
+plotly::ggplotly(grafico1)
+```
+
+```{r plot-static, echo=FALSE, eval=knitr::is_latex_output()}
+library(ggplot2)
+grafico2 = ggplot(rock, 
+       aes(y=peri,x=shape, color =shape, size = peri)) + geom_point() + 
+  theme_bw() + theme(legend.position = "none") 
+grafico2
+```
+
+`r knitr::asis_output(ifelse(knitr::is_html_output(), '<span style='color:red'> questo </span>', '\\color{red} quest'altra \\normalcolor'))`

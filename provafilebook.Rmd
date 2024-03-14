@@ -1,0 +1,85 @@
+---
+title: "Iris"
+subtitle: "Viola"
+date: "Università di Padova"
+output:
+  pdf_document:
+    number_sections: false
+toc: true
+toc_depth: 1
+linestretch: 1.5
+geometry: margin=0.5in
+bibliography: bibliografia/biblio.bib
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+# Iris violettoso
+
+Tra gli \textcolor{red}{iris} più rustici vi è I. pseudacorus, specie spontanea, chiamato volgarmente anche acoro adulterino o acoro falso:
+
+1. diffuso nei fossi, canali e zone paludose dell'Italia settentrionale, ha un rizoma carnoso e ramificato, da cui si origina un fusto eretto alto 40–100 cm, cilindrico e compresso, che porta foglie lineari-allungate, ensiformi su più livelli, con le foglie basali lunghe quanto il fusto;
+2. i fiori, inodori e peduncolati, sono riuniti in infiorescenze;
+3. il perigonio di colore giallo è formato da un breve tratto tubolare e da sei lacinie, di cui le tre esterne sono grandi e ristrette in basso, con una specie di barba, con venature giallo-rossicce, mentre le tre interne sono piccole ed erette.
+Gli stami sono tre e il pistillo è unico, con ovario infero sormontato da un corto stilo filamentoso, che porta tre stimmi simili a petali di colore giallo; il frutto si presenta come una capsula a sezione triangolare lunga 4–5 cm, leggermente acuminata e con numerosi semi. 
+
+![iris viola](img/Iris-kaempferi-Viola-Giaggiolo-2.jpg)
+
+# Altro iris
+
+Gli iris **\textcolor{red}{bulbosi}** originari dell'Europa come l'I. germanica vegetano su qualunque suolo, anche arido, preferendo terreni soffici, sciolti, ben drenati e fertili, esposizione in pieno sole.
+
+- Le specie esotiche sensibili al gelo richiedono luoghi ombrosi, 
+  - terreno di medio impasto, fresco, vicino a bacini d'acqua, 
+  - cure particolari, con un periodo di assoluto riposo vegetativo dalla fine della fioritura [fino all'autunno,@bruner1985child], per ottenere buone fioriture nella stagione successiva.
+Uno dei più importanti scrittori greci antichi fu Eracleide, che descrisse alcune ricette, riprese in seguito da Aulo Cornelio Celso [@epifania2020dscoreapp]. 
+Le radici studiate e messe in vendita vennero definite "farmacopoli" e si basavano soprattutto su nozioni tratte dai testi di Ippocrate di Coo e sugli scritti di botanica di Teofrasto.
+
+```{r, fig.cap = "Iris violino", fig.align="center", out.width="40%"}
+knitr::include_graphics(path = "img/Iris-kaempferi-Viola-Giaggiolo-2.jpg")
+```
+
+Nell'antica *\color{green}{Roma} *\normalcolor, già nel I secolo d.C. erano impiantati orti chiamati medicinali, in quanto si coltivavano piante sfruttate per le varie terapie mediche.
+Nel IX secolo d.C., in Sicilia, grazie ai Saraceni vennero introdotte nuove tecniche idrauliche e di irrigazione, che consentirono l'introduzione di nuove piante officinali.
+Gli arabi diedero un grande impulso all'alchimia medievale, principalmente per lo sviluppo farmaceutico di tinture e di distillati. Gli arabi [@epifania2020implicit] furono i primi a tentare di organizzare la farmacopea: crearono un elenco di ricette descrivendo le proporzioni e le composizioni chimiche.
+Al XI secolo risalgono i primi testi farmaceutici, in cui confluirono le influenze greche, romane e arabe, sintetizzate nella definizione delle operazioni fondamentali:
+
+- lozione, 
+- decozione,
+- infusione e triturazione.
+
+```{r, fig.cap = "Iris bianco", fig.align="right", out.width="50%"}
+knitr::include_graphics(path = "img/iris_albicans (3).jpg")
+```
+
+In questo periodo si diffuse l'uso delle spezie e delle droghe e la Scuola Medica Salernitana introdusse assieme alle pratiche chirurgiche anche una forma molto primitiva di anestesia, la cosiddetta spongia sonnifera. La Scuola salernitana per l'epoca una aveva buona capacità di selezionare le erbe.
+
+La ***\color{violet}{scienza} ***\normalcolor della botanica nacque però solo agli inizi del Cinquecento, e fu legata alle scoperte geografiche, e alla introduzione della stampa. Si diffusero, in questo periodo i primi erbari moderni. 
+
+Nel 1533, a Padova, fu istituita la prima cattedra di "botanica sperimentale"
+
+- Mattioli redasse nel 1554 il più significativo tra i testi di botanica dell'epoca, che veniva ritenuto anche testo di medicina.
+  1. Nel Seicento, Pierre Magnol inserì nella classificazione le famiglie tassonomiche, suddividendo il mondo vegetale in settantasei gruppi.
+- Nel secolo successivo, la spinta maggiore per il progresso della botanica avvenne grazie allo svedese Carl von Linné. Egli identificò le specie viventi, dividendole in classi, quindi in ordini e infine in generi.
+
+> I sistemi botanici attuali stanno infine basando finalmente la loro veridicità sull'analisi del DNA.
+
+```{r, fig.cap = "Iris bianco", fig.align="center", out.width="50%"}
+knitr::include_graphics(path = "img/iris_albicans (3).jpg")
+```
+
+# Ultimo iris
+
+A dispetto del \large nome \normalsize, la pianta [^1]
+
+[^1]: alberello alberoso alberino violetto [\color{blue}{fiore}\normalcolor](https://it.wikipedia.org/wiki/Fiore)
+
+è nativa dell'area della Cina [^2]
+
+[^2]: nazione dell'Oriente
+
+e solo in tempi successivi sembra essersi storicamente diffusa anche [\color{orange}{Giappone}\normalcolor](https://it.wikipedia.org/wiki/Giappone). Cresce perenne nell'aperta foresta, in angoli umidi o ai piedi di grandi alberi ombrosi tra i 500 e gli 800 metri sul livello del mare. Ad ogni modo questa pianta si adatta facilmente anche a climi molto diversi in quanto non solo è stata in grado di divenire una pianta ornamentale @epifania2020implicit per giardini di climi temperati come quello europeo, ma nella Cina sud occidentale cresce anche ad altezze comprese tra i 2.400 e i 3.400 metri.
+
+\newpage
+# References

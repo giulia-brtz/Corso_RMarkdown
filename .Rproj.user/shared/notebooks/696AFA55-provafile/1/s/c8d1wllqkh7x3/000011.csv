@@ -1,0 +1,4 @@
+"0","(plot(data$y ~ data$x))
+"
+"2","Errore in data$y : oggetto di tipo 'closure' non suddivisibile
+"

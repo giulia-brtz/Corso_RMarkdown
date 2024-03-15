@@ -1,8 +1,10 @@
 ---
 title: "Iris"
-subtitle: "Viola"
+subtitle: Viola
 date: "Università di Padova"
 output:
+  html_document:
+    df_print: paged
   pdf_document:
     number_sections: false
 toc: true

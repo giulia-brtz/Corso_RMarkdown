@@ -7,4 +7,3 @@ Questo è il primo file di quarto, qui sotto la presentazione
 E infine il file il file in PDF
 
 [filepdf](provafile.pdf) e anche in [formato HTML](provafile.html)
-
